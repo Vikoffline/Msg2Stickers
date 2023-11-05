@@ -5,7 +5,6 @@ import vk_api as VK
 import asyncio
 
 with open('config.json', 'r') as confile:
-    config = confile
     config = json.load(confile)
     token = config['token']
     ids = config['ids']
